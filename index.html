@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>X Tracker</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #0f0f0f;
+    color: #e7e9ea;
+    padding: 32px 24px;
+  }
+  h1 { font-size: 28px; margin-bottom: 8px; }
+  .subtitle { color: #71767b; margin-bottom: 32px; font-size: 14px; }
+  .controls {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  .filter-btn {
+    background: #1d1d1d;
+    color: #e7e9ea;
+    border: 1px solid #333;
+    padding: 6px 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: all 0.2s;
+  }
+  .filter-btn:hover { border-color: #1d9bf0; color: #1d9bf0; }
+  .filter-btn.active { background: #1d9bf0; color: white; border-color: #1d9bf0; }
+  .feed { max-width: 600px; margin: 0 auto; }
+  .tweet {
+    background: #1a1a1a;
+    border: 1px solid #2f2f2f;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 12px;
+    transition: background 0.2s;
+  }
+  .tweet:hover { background: #222; }
+  .tweet-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+  }
+  .tweet-avatar {
+    width: 36px; height: 36px;
+    border-radius: 50%;
+    background: #333;
+  }
+  .tweet-name { font-weight: 600; font-size: 14px; }
+  .tweet-handle { color: #71767b; font-size: 13px; }
+  .tweet-text {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 8px;
+    word-wrap: break-word;
+  }
+  .tweet-meta {
+    font-size: 13px;
+    color: #71767b;
+  }
+  .tweet-meta a { color: #71767b; text-decoration: none; }
+  .tweet-meta a:hover { color: #1d9bf0; text-decoration: underline; }
+  .rt-badge {
+    font-size: 11px;
+    color: #71767b;
+    margin-bottom: 4px;
+  }
+  .loading {
+    text-align: center;
+    padding: 60px;
+    color: #71767b;
+  }
+  @media (max-width: 600px) {
+    body { padding: 16px; }
+  }
+</style>
+</head>
+<body>
+  <h1>X/Twitter Tracker</h1>
+  <p class="subtitle" id="subtitle">Loading...</p>
+
+  <div class="controls" id="filters"></div>
+
+  <div class="feed" id="feed"></div>
+
+  <script>
+    async function loadTweets() {
+      const resp = await fetch('tweets.json');
+      let tweets = await resp.json();
+
+      // Filter to last 30 days
+      const cutoff = new Date();
+      cutoff.setDate(cutoff.getDate() - 30);
+      tweets = tweets.filter(t => {
+        const d = new Date(t.publishedAt);
+        return !isNaN(d) && d >= cutoff;
+      });
+
+      const accounts = [...new Set(tweets.map(t => t.username))];
+
+      document.getElementById('subtitle').textContent =
+        `Tracking ${accounts.length} accounts · ${tweets.length} tweets · Last 30 days`;
+
+      // Filters
+      const filterDiv = document.getElementById('filters');
+      const allBtn = document.createElement('button');
+      allBtn.className = 'filter-btn active';
+      allBtn.textContent = 'All';
+      allBtn.onclick = () => { renderTweets(tweets, null); setActive(allBtn); };
+      filterDiv.appendChild(allBtn);
+
+      accounts.forEach(acc => {
+        const btn = document.createElement('button');
+        btn.className = 'filter-btn';
+        btn.textContent = '@' + acc;
+        btn.onclick = () => { renderTweets(tweets, acc); setActive(btn); };
+        filterDiv.appendChild(btn);
+      });
+
+      renderTweets(tweets, null);
+    }
+
+    function setActive(btn) {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+    }
+
+    function renderTweets(tweets, filterAccount) {
+      const feed = document.getElementById('feed');
+      let items = filterAccount ? tweets.filter(t => t.username === filterAccount) : tweets;
+
+      feed.innerHTML = items.map(t => {
+        const ago = timeAgo(t.publishedAt);
+        const rt = t.isRetweet ? '<div class="rt-badge">🔁 Retweeted</div>' : '';
+        return `
+          <div class="tweet">
+            ${rt}
+            <div class="tweet-header">
+              <div class="tweet-avatar"></div>
+              <div>
+                <div class="tweet-name">${escapeHtml(t.displayName)}</div>
+                <div class="tweet-handle">@${escapeHtml(t.username)}</div>
+              </div>
+            </div>
+            <div class="tweet-text">${escapeHtml(t.text)}</div>
+            <div class="tweet-meta">
+              <a href="${t.link}" target="_blank">${ago}</a>
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      if (items.length === 0) {
+        feed.innerHTML = '<div class="loading">No tweets match your filter.</div>';
+      }
+    }
+
+    function timeAgo(dateStr) {
+      const now = new Date();
+      const d = new Date(dateStr);
+      const diff = (now - d) / 1000;
+      if (isNaN(diff)) return dateStr;
+      if (diff < 3600) return Math.floor(diff / 60) + 'm ago';
+      if (diff < 86400) return Math.floor(diff / 3600) + 'h ago';
+      if (diff < 604800) return Math.floor(diff / 86400) + 'd ago';
+      return d.toLocaleDateString();
+    }
+
+    function escapeHtml(str) {
+      const div = document.createElement('div');
+      div.textContent = str;
+      return div.innerHTML;
+    }
+
+    loadTweets();
+  </script>
+</body>
+</html>
