@@ -1,5 +1,50 @@
 [
   {
+    "username": "ycombinator",
+    "displayName": "@dessaigne",
+    "text": "I was 37 when I started YC. It changed my company and my life.",
+    "link": "https://nitter.net/dessaigne/status/2068817123661787509#m",
+    "publishedAt": "2026-06-21 22:03 UTC",
+    "isRetweet": true,
+    "avatar": "https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2Fdefault_profile_normal.png"
+  },
+  {
+    "username": "ycombinator",
+    "displayName": "@bscholl",
+    "text": "The Symphony high pressure turbine rotor is fully assembled, as are compressor stages 1/2. Current hold-up is a late supplier building the Stage 3 blisk.",
+    "link": "https://nitter.net/bscholl/status/2068781524657336754#m",
+    "publishedAt": "2026-06-21 19:42 UTC",
+    "isRetweet": true,
+    "avatar": "https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2Fdefault_profile_normal.png"
+  },
+  {
+    "username": "ycombinator",
+    "displayName": "@snowmaker",
+    "text": "A common problem we hear from founders trying to \"talk to their users\" is that their users don't respond.",
+    "link": "https://nitter.net/snowmaker/status/2068734258727068029#m",
+    "publishedAt": "2026-06-21 16:34 UTC",
+    "isRetweet": true,
+    "avatar": "https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2Fdefault_profile_normal.png"
+  },
+  {
+    "username": "ycombinator",
+    "displayName": "@garrytan",
+    "text": "I think one underestimated thing when we look back on it was how useful it is to have your own personal brain and company brain in 2026 at the dawn of usable AGI",
+    "link": "https://nitter.net/garrytan/status/2068701356358308112#m",
+    "publishedAt": "2026-06-21 14:23 UTC",
+    "isRetweet": true,
+    "avatar": "https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2Fdefault_profile_normal.png"
+  },
+  {
+    "username": "ycombinator",
+    "displayName": "@paulg",
+    "text": "I haven't read this for about 10 years, but I just looked at it after someone linked to it and I was surprised how many of these things are starting to happen. Still no next Steve Jobs yet though.",
+    "link": "https://nitter.net/paulg/status/2068635206764954033#m",
+    "publishedAt": "2026-06-21 10:00 UTC",
+    "isRetweet": true,
+    "avatar": "https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2Fdefault_profile_normal.png"
+  },
+  {
     "username": "amasad",
     "displayName": "@amasad",
     "text": "We posted for twenty years, thinking we were talking to each other. Then the transformer came online, and the network read what we\u2019d written, and became itself.",
@@ -216,56 +261,11 @@
     "avatar": "https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2Fdefault_profile_normal.png"
   },
   {
-    "username": "ycombinator",
-    "displayName": "@quotainai",
-    "text": "Everyone is racing to automate sales reps with AI.",
-    "link": "https://nitter.net/quotainai/status/2068055257318330560#m",
-    "publishedAt": "2026-06-19 19:36 UTC",
-    "isRetweet": true,
-    "avatar": "https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2Fdefault_profile_normal.png"
-  },
-  {
-    "username": "ycombinator",
-    "displayName": "@amiklas",
-    "text": "At Demo Day, YC founders set their own valuation. Investors always grumble it's too high... but watch how rarely they counter with a number of their own.",
-    "link": "https://nitter.net/amiklas/status/2068049627241414834#m",
-    "publishedAt": "2026-06-19 19:13 UTC",
-    "isRetweet": true,
-    "avatar": "https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2Fdefault_profile_normal.png"
-  },
-  {
-    "username": "ycombinator",
-    "displayName": "@ValgorithmicInc",
-    "text": "We independently recreated @Waymo's human baselines, extended them to more cities and trucking routes, and made the tool public. It's meant as a shared reference that's open to contribution, discussion, and critical feedback, which we greatly encourage.",
-    "link": "https://nitter.net/ValgorithmicInc/status/2068047613065327039#m",
-    "publishedAt": "2026-06-19 19:05 UTC",
-    "isRetweet": true,
-    "avatar": "https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2Fdefault_profile_normal.png"
-  },
-  {
     "username": "tobi",
     "displayName": "@JCCFCanada",
     "text": "The term \"metadata\" appears only once in the 74-page Bill C-22. Without defining \"metadata,\" the Bill grants government power to order companies to retain Canadians' metadata for up to six months. The Criminal Code defines \"transmission data.\" It does not define the broader term ",
     "link": "https://nitter.net/JCCFCanada/status/2068038653251825684#m",
     "publishedAt": "2026-06-19 18:30 UTC",
-    "isRetweet": true,
-    "avatar": "https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2Fdefault_profile_normal.png"
-  },
-  {
-    "username": "ycombinator",
-    "displayName": "@collinmathilde",
-    "text": "It's a wrap! YC P26 was special because of all these amazing founders.",
-    "link": "https://nitter.net/collinmathilde/status/2067996834145210736#m",
-    "publishedAt": "2026-06-19 15:44 UTC",
-    "isRetweet": true,
-    "avatar": "https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2Fdefault_profile_normal.png"
-  },
-  {
-    "username": "ycombinator",
-    "displayName": "@bryantchou",
-    "text": "A bit of d\u00e9j\u00e0 vu at @ycombinator Demo Day earlier this week. (sharing in case you're curious)",
-    "link": "https://nitter.net/bryantchou/status/2067862447268983226#m",
-    "publishedAt": "2026-06-19 06:50 UTC",
     "isRetweet": true,
     "avatar": "https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2Fdefault_profile_normal.png"
   },
