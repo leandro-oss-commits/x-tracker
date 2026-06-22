@@ -1,5 +1,122 @@
 [
   {
+    "username": "OpenAI",
+    "displayName": "@OpenAI",
+    "text": "We\u2019re also launching the OpenAI Daybreak Cyber Partner Program with leading security software and services providers.",
+    "link": "https://nitter.net/OpenAI/status/2069104290065776881#m",
+    "publishedAt": "2026-06-22 17:04 UTC",
+    "isRetweet": false,
+    "avatar": "https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2Fdefault_profile_normal.png"
+  },
+  {
+    "username": "OpenAI",
+    "displayName": "@OpenAI",
+    "text": "Patch the Planet is our effort to help open source maintainers move from security findings to merged fixes.",
+    "link": "https://nitter.net/OpenAI/status/2069104288417390688#m",
+    "publishedAt": "2026-06-22 17:04 UTC",
+    "isRetweet": false,
+    "avatar": "https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2Fdefault_profile_normal.png"
+  },
+  {
+    "username": "OpenAI",
+    "displayName": "@OpenAI",
+    "text": "GPT-5.5-Cyber is our most capable cyber model yet, designed for advanced, authorized defensive work: tracing vulnerable code, validating issues, developing patches, and preparing evidence for human review.",
+    "link": "https://nitter.net/OpenAI/status/2069104286479618296#m",
+    "publishedAt": "2026-06-22 17:04 UTC",
+    "isRetweet": false,
+    "avatar": "https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2Fdefault_profile_normal.png"
+  },
+  {
+    "username": "OpenAI",
+    "displayName": "@OpenAI",
+    "text": "Codex Security empowers defenders with out-of-the-box security workflows.",
+    "link": "https://nitter.net/OpenAI/status/2069104284982263810#m",
+    "publishedAt": "2026-06-22 17:04 UTC",
+    "isRetweet": false,
+    "avatar": "https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2Fdefault_profile_normal.png"
+  },
+  {
+    "username": "OpenAI",
+    "displayName": "@OpenAI",
+    "text": "We\u2019re expanding OpenAI Daybreak to help democratize patching vulnerable software at machine speed:",
+    "link": "https://nitter.net/OpenAI/status/2069104283824640023#m",
+    "publishedAt": "2026-06-22 17:04 UTC",
+    "isRetweet": false,
+    "avatar": "https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2Fdefault_profile_normal.png"
+  },
+  {
+    "username": "ycombinator",
+    "displayName": "@ycombinator",
+    "text": "Apply to join: events.ycombinator.com/2027-\u2026",
+    "link": "https://nitter.net/ycombinator/status/2069096490094751836#m",
+    "publishedAt": "2026-06-22 16:33 UTC",
+    "isRetweet": false,
+    "avatar": "https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2Fdefault_profile_normal.png"
+  },
+  {
+    "username": "ycombinator",
+    "displayName": "@ycombinator",
+    "text": "The best way to learn AI is to work at an AI startup.",
+    "link": "https://nitter.net/ycombinator/status/2069096488479944929#m",
+    "publishedAt": "2026-06-22 16:33 UTC",
+    "isRetweet": false,
+    "avatar": "https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2Fdefault_profile_normal.png"
+  },
+  {
+    "username": "ycombinator",
+    "displayName": "@zenorocha",
+    "text": "Resend just crossed 92k customers.",
+    "link": "https://nitter.net/zenorocha/status/2069064166703555043#m",
+    "publishedAt": "2026-06-22 14:25 UTC",
+    "isRetweet": true,
+    "avatar": "https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2Fdefault_profile_normal.png"
+  },
+  {
+    "username": "ycombinator",
+    "displayName": "@XDeGracia",
+    "text": "At Prosper AI we are thrilled to have raised a $30M Series A led by @a16z ",
+    "link": "https://nitter.net/XDeGracia/status/2069050397193351195#m",
+    "publishedAt": "2026-06-22 13:30 UTC",
+    "isRetweet": true,
+    "avatar": "https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2Fdefault_profile_normal.png"
+  },
+  {
+    "username": "amasad",
+    "displayName": "@benhylak",
+    "text": "community notes is the best change elon made to x",
+    "link": "https://nitter.net/benhylak/status/2068906762003185853#m",
+    "publishedAt": "2026-06-22 03:59 UTC",
+    "isRetweet": true,
+    "avatar": "https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2Fdefault_profile_normal.png"
+  },
+  {
+    "username": "ycombinator",
+    "displayName": "@agupta",
+    "text": "in the near term you should probably just use @wafer_ai which seems to be the cheapest provider instead of building your own rig.",
+    "link": "https://nitter.net/agupta/status/2068887522655043704#m",
+    "publishedAt": "2026-06-22 02:43 UTC",
+    "isRetweet": true,
+    "avatar": "https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2Fdefault_profile_normal.png"
+  },
+  {
+    "username": "ycombinator",
+    "displayName": "@dessaigne",
+    "text": "A founder told me last week that they were at $1.2M ARR. When we dug in, the real recurring revenue was closer to  $1M. The rest was expected usage that never came.",
+    "link": "https://nitter.net/dessaigne/status/2068880615269941738#m",
+    "publishedAt": "2026-06-22 02:15 UTC",
+    "isRetweet": true,
+    "avatar": "https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2Fdefault_profile_normal.png"
+  },
+  {
+    "username": "ycombinator",
+    "displayName": "@snowmaker",
+    "text": "This is a deep insight from Blake: \"the enemy is the real customer of defense products.\"",
+    "link": "https://nitter.net/snowmaker/status/2068864676059091443#m",
+    "publishedAt": "2026-06-22 01:12 UTC",
+    "isRetweet": true,
+    "avatar": "https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2Fdefault_profile_normal.png"
+  },
+  {
     "username": "ycombinator",
     "displayName": "@dessaigne",
     "text": "I was 37 when I started YC. It changed my company and my life.",
@@ -10,37 +127,10 @@
   },
   {
     "username": "ycombinator",
-    "displayName": "@bscholl",
-    "text": "The Symphony high pressure turbine rotor is fully assembled, as are compressor stages 1/2. Current hold-up is a late supplier building the Stage 3 blisk.",
-    "link": "https://nitter.net/bscholl/status/2068781524657336754#m",
-    "publishedAt": "2026-06-21 19:42 UTC",
-    "isRetweet": true,
-    "avatar": "https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2Fdefault_profile_normal.png"
-  },
-  {
-    "username": "ycombinator",
     "displayName": "@snowmaker",
-    "text": "A common problem we hear from founders trying to \"talk to their users\" is that their users don't respond.",
-    "link": "https://nitter.net/snowmaker/status/2068734258727068029#m",
-    "publishedAt": "2026-06-21 16:34 UTC",
-    "isRetweet": true,
-    "avatar": "https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2Fdefault_profile_normal.png"
-  },
-  {
-    "username": "ycombinator",
-    "displayName": "@garrytan",
-    "text": "I think one underestimated thing when we look back on it was how useful it is to have your own personal brain and company brain in 2026 at the dawn of usable AGI",
-    "link": "https://nitter.net/garrytan/status/2068701356358308112#m",
-    "publishedAt": "2026-06-21 14:23 UTC",
-    "isRetweet": true,
-    "avatar": "https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2Fdefault_profile_normal.png"
-  },
-  {
-    "username": "ycombinator",
-    "displayName": "@paulg",
-    "text": "I haven't read this for about 10 years, but I just looked at it after someone linked to it and I was surprised how many of these things are starting to happen. Still no next Steve Jobs yet though.",
-    "link": "https://nitter.net/paulg/status/2068635206764954033#m",
-    "publishedAt": "2026-06-21 10:00 UTC",
+    "text": "When you get your army of AI agents working right, you really do feel like Mickey in the Sorcerer's Apprentice.",
+    "link": "https://nitter.net/snowmaker/status/2068792155783802941#m",
+    "publishedAt": "2026-06-21 20:24 UTC",
     "isRetweet": true,
     "avatar": "https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2Fdefault_profile_normal.png"
   },
@@ -69,6 +159,15 @@
     "link": "https://nitter.net/amasad/status/2068537084877643943#m",
     "publishedAt": "2026-06-21 03:30 UTC",
     "isRetweet": false,
+    "avatar": "https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2Fdefault_profile_normal.png"
+  },
+  {
+    "username": "ycombinator",
+    "displayName": "@heyclicky",
+    "text": "i went to demo day",
+    "link": "https://nitter.net/heyclicky/status/2068516733812658476#m",
+    "publishedAt": "2026-06-21 02:09 UTC",
+    "isRetweet": true,
     "avatar": "https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2Fdefault_profile_normal.png"
   },
   {
@@ -126,30 +225,12 @@
     "avatar": "https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2Fdefault_profile_normal.png"
   },
   {
-    "username": "ycombinator",
-    "displayName": "@DynamicWebPaige",
-    "text": "\ud83d\ude4c Huge crowd for the @googledeepmind / HUD Frontier / RSI RL Environments hackathon at @ycombinator!",
-    "link": "https://nitter.net/DynamicWebPaige/status/2068413613774377138#m",
-    "publishedAt": "2026-06-20 19:20 UTC",
-    "isRetweet": true,
-    "avatar": "https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2Fdefault_profile_normal.png"
-  },
-  {
     "username": "tobi",
     "displayName": "@tobi",
     "text": "Signed",
     "link": "https://nitter.net/tobi/status/2068372053766369290#m",
     "publishedAt": "2026-06-20 16:35 UTC",
     "isRetweet": false,
-    "avatar": "https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2Fdefault_profile_normal.png"
-  },
-  {
-    "username": "ycombinator",
-    "displayName": "@paulg",
-    "text": "One reason it's more difficult to work with people you don't have faith in is simply that there are more possibilities to consider whenever they do something. You also have to consider all the ways they might have screwed up. Even if they didn't, you still have to think about it.",
-    "link": "https://nitter.net/paulg/status/2068360577223626876#m",
-    "publishedAt": "2026-06-20 15:49 UTC",
-    "isRetweet": true,
     "avatar": "https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2Fdefault_profile_normal.png"
   },
   {
@@ -200,15 +281,6 @@
   {
     "username": "amasad",
     "displayName": "@amasad",
-    "text": "\u201cThe best conference experience I\u2019ve had this year\u201d",
-    "link": "https://nitter.net/amasad/status/2068182309719728159#m",
-    "publishedAt": "2026-06-20 04:01 UTC",
-    "isRetweet": false,
-    "avatar": "https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2Fdefault_profile_normal.png"
-  },
-  {
-    "username": "amasad",
-    "displayName": "@amasad",
     "text": "Vibecon recap",
     "link": "https://nitter.net/amasad/status/2068177018479403065#m",
     "publishedAt": "2026-06-20 03:40 UTC",
@@ -221,33 +293,6 @@
     "text": "Toronto, Canada \ud83c\udde8\ud83c\udde6",
     "link": "https://nitter.net/EarthySoulX/status/2068165578859360578#m",
     "publishedAt": "2026-06-20 02:54 UTC",
-    "isRetweet": true,
-    "avatar": "https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2Fdefault_profile_normal.png"
-  },
-  {
-    "username": "ycombinator",
-    "displayName": "@sdianahu",
-    "text": "an underrated source of good startup devtool ideas: taking an old boring API, then make it angent native + oss and have LLMs default to recommending it",
-    "link": "https://nitter.net/sdianahu/status/2068120595087421468#m",
-    "publishedAt": "2026-06-19 23:55 UTC",
-    "isRetweet": true,
-    "avatar": "https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2Fdefault_profile_normal.png"
-  },
-  {
-    "username": "ycombinator",
-    "displayName": "@aaron_epstein",
-    "text": "Pre-PMF, I see more companies get into trouble by raising too much money, rather than raising too little.",
-    "link": "https://nitter.net/aaron_epstein/status/2068117632709226883#m",
-    "publishedAt": "2026-06-19 23:44 UTC",
-    "isRetweet": true,
-    "avatar": "https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2Fdefault_profile_normal.png"
-  },
-  {
-    "username": "ycombinator",
-    "displayName": "@sdianahu",
-    "text": "watch our og startup sites be roasted then fixed by @ployai",
-    "link": "https://nitter.net/sdianahu/status/2068116259716411622#m",
-    "publishedAt": "2026-06-19 23:38 UTC",
     "isRetweet": true,
     "avatar": "https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2Fdefault_profile_normal.png"
   },
@@ -315,42 +360,6 @@
     "avatar": "https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2Fdefault_profile_normal.png"
   },
   {
-    "username": "OpenAI",
-    "displayName": "@OpenAI",
-    "text": "As AI takes on longer, higher-stakes tasks, we want models to carry beneficial and safe behavior into new domains beyond their training\u2014and maintain it under pressure.",
-    "link": "https://nitter.net/OpenAI/status/2067722688165232654#m",
-    "publishedAt": "2026-06-18 21:34 UTC",
-    "isRetweet": false,
-    "avatar": "https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2Fdefault_profile_normal.png"
-  },
-  {
-    "username": "OpenAI",
-    "displayName": "@OpenAI",
-    "text": "Improving human health will be one of the most personal, tangible impacts of AGI.",
-    "link": "https://nitter.net/OpenAI/status/2067672744108724635#m",
-    "publishedAt": "2026-06-18 18:16 UTC",
-    "isRetweet": false,
-    "avatar": "https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2Fdefault_profile_normal.png"
-  },
-  {
-    "username": "OpenAI",
-    "displayName": "@OpenAI",
-    "text": "To improve our models, we collaborate with a global network of hundreds of physicians across 60 countries, 49 languages, and 26 specialties.",
-    "link": "https://nitter.net/OpenAI/status/2067672742426775728#m",
-    "publishedAt": "2026-06-18 18:16 UTC",
-    "isRetweet": false,
-    "avatar": "https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2Fdefault_profile_normal.png"
-  },
-  {
-    "username": "OpenAI",
-    "displayName": "@OpenAI",
-    "text": "GPT-5.5 Instant is now on par with our frontier Thinking models for health-related questions.",
-    "link": "https://nitter.net/OpenAI/status/2067672740539306261#m",
-    "publishedAt": "2026-06-18 18:16 UTC",
-    "isRetweet": false,
-    "avatar": "https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2Fdefault_profile_normal.png"
-  },
-  {
     "username": "AnthropicAI",
     "displayName": "@AnthropicAI",
     "text": "Watch the robodogs in action in our first Project Fetch experiment:",
@@ -365,15 +374,6 @@
     "text": "New Frontier Red Team blog: Phase 2 of Project Fetch, where we test how well Claude can program a robodog.",
     "link": "https://nitter.net/AnthropicAI/status/2067651699486200091#m",
     "publishedAt": "2026-06-18 16:52 UTC",
-    "isRetweet": false,
-    "avatar": "https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2Fdefault_profile_normal.png"
-  },
-  {
-    "username": "OpenAI",
-    "displayName": "@OpenAI",
-    "text": "Many of these cases had evaded years of expert analysis.",
-    "link": "https://nitter.net/OpenAI/status/2067625115182120972#m",
-    "publishedAt": "2026-06-18 15:06 UTC",
     "isRetweet": false,
     "avatar": "https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2Fdefault_profile_normal.png"
   },
